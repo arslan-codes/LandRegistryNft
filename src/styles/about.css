@@ -1,0 +1,182 @@
+.top-info {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: 300;
+}
+.top-info2 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+
+  font-size: 22px;
+  font-weight: 300;
+}
+.heading2 {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: 300;
+}
+.top-info3 {
+  justify-content: center;
+  text-align: center;
+
+  font-size: 22px;
+  font-weight: 300;
+}
+.aboutpic {
+  height: 40%;
+  max-width: 40%;
+  margin-left: 100px;
+}
+.info4 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image1 {
+  margin-top: 40px;
+  height: 70%;
+  max-width: 100%;
+  border-radius: 15px 15px 15px 15px;
+}
+.text > p {
+  margin-top: 80px;
+}
+
+.text_ {
+  margin-top: 40px;
+  width: 60%;
+
+  font-family: "Ubuntu", sans-serif;
+}
+.text1 {
+  font-size: 22px;
+}
+.text2 {
+  font-size: 18px;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member {
+  width: 300px;
+  padding: 20px;
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+/* .me img{
+  width: 50%;
+} */
+
+.team-member h3,
+.team-member p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+.mission {
+  background-color: lightgrey;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/*fqas*/
+
+.faq-header {
+  font-size: 30px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+
+.faq-content {
+  margin: 0 auto;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.panel-title {
+  font-size: 22px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.panel:checked ~ .panel-content {
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+.faqs {
+  margin-left: 80px;
+}

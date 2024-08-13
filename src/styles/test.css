@@ -1,0 +1,45 @@
+Global styles body {
+  font-family: "Satoshi", sans-serif;
+
+  font-weight: 500;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+} */
+
+.card {
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}

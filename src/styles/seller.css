@@ -1,0 +1,11 @@
+.main-seller {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card-guide {
+  width: 50rem;
+  background-color: rgb(255, 243, 243);
+  padding: 30px;
+  border-radius: 5px;
+}
